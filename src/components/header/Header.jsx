@@ -72,12 +72,13 @@ const Header = () => {
                          "
         >
           {links.map(({ id, link }) => (
-            <li
+            <Link
               key={id}
+              to={link}
               className="px-4 cursor-pointer capitalize py-3 text-4xl m-auto  hover:scale-105 duration-200  "
             >
               {link}
-            </li>
+            </Link>
           ))}
         </ul>
       )}
