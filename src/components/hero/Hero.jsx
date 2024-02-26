@@ -1,6 +1,7 @@
 import React from "react";
 import p from "../../pictures/199306417_2993102590957695_2129651544257955142_n.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div
@@ -23,12 +24,12 @@ const Hero = () => {
             for the boundless possibilities of software engineering.
           </p>
           <div>
-            <button className="group  text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link className="group  text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
               <span className=" group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={20} className="ml-2" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -36,7 +37,7 @@ const Hero = () => {
           <img
             src={p}
             alt="pic"
-            className="rounded-2xl mx-auto  md:w-fullk w-2/3"
+            className="rounded-2xl mx-auto  md:w-full w-2/3"
           />
         </div>
       </div>
