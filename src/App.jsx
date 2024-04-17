@@ -9,7 +9,7 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="container">
+    <div >
       <Header />
 
       <Hero />
