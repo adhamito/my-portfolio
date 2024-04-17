@@ -29,7 +29,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 bg-black text-white fixed px-4">
+    <div className="flex justify-between items-center w-full h-20 bg-black text-white fixed px-4 m-0">
       <div>
         <h1 className="text-5xl font-signature mt-2  ">Adham</h1>
       </div>
