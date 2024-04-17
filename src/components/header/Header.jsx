@@ -29,9 +29,9 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 bg-black text-white fixed px-4 m-0">
+    <div className="flex justify-between items-center w-full h-20 bg-black text-white px-4">
       <div>
-        <h1 className="text-5xl font-signature mt-2  ">Adham</h1>
+        <h1 className="text-5xl font-signature mt-2">Adham</h1>
       </div>
       <ul className="md:flex hidden">
         {links.map(({ id, link }) => (
@@ -64,12 +64,8 @@ const Header = () => {
                        h-screen
                        bg-gradient-to-b
                          from-black
-                         
-                         
                          to-gray-500
-                         text-gray-400
-                         
-                         "
+                       text-gray-400"
         >
           {links.map(({ id, link }) => (
             <Link
